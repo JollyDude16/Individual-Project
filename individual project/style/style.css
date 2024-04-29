@@ -1,0 +1,52 @@
+.mytitle {
+    height: 225px;
+    font-size: 46px;
+    padding-bottom: 50px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.mysearchbar {
+    width: 100%;
+    position: relative;
+    height: 75px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    padding: 50px;
+}
+
+.input {
+    height: 2.2em;
+    width: 340px;
+    border-radius: 5px;
+}
+
+::placeholder {
+    color: grey;
+    padding: 0 5px;
+    outline: none;
+    border: none;
+}
+
+.btn {
+    border-radius: 3px;
+    height: 35px;
+    background-color: grey;
+    color: white;
+    border-radius: 5px;
+    border-color: grey;
+}
+
+.card_body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /*그리드 3개*/
+    justify-content: center;
+}
